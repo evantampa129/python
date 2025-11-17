@@ -1,0 +1,66 @@
+## Python Cheatsheet
+Python — brief summary
+
+- High-level, general-purpose language designed for readability and rapid development.
+- Commonly use Python 3 (modern features, active community and libraries).
+- Interpreted: source is processed by an interpreter (CPython typically compiles to bytecode and runs it on a virtual machine) rather than being ahead-of-time compiled. This makes development fast and portable, though raw execution can be slower than compiled languages like C/C++.
+- Dynamically typed with simple, consistent syntax (indentation blocks) and powerful built-in data structures: lists, tuples, dicts, sets.
+- Supports multiple paradigms: procedural, functional, and object-oriented programming.
+- Rich standard library and an extensive ecosystem of third-party packages installable via pip.
+- Error handling via exceptions; organize code with modules and packages.
+- Typical workflow: write scripts or modules, run and debug in an IDE (e.g., VS Code with the Python extension), and manage packages/environments (venv or conda).
+- Use the cheatsheet links below for quick reference on basics, data structures, control flow, functions, and object-oriented concepts.
+
+Source: [text]https://edx.org
+
+Hello World:
+[text]https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/jupyterlite/latest/lab/index.html?file_path=_r1fp-EZBXapbhESR3kRKA.jupyterlite.ipynb&notebook_url=https%3A%2F%2Fcf-courses-data.s3.us.cloud-object-storage.appdomain.cloud%2F_r1fp-EZBXapbhESR3kRKA.jupyterlite.ipynb%3Ft%3D1752236661
+
+Data Types:
+[text]https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/jupyterlite/latest/lab/index.html?notebook_url=https://cf-courses-data.static.labs.skills.network/TxVoPcArWtWQobeKhTB61g.jupyterlite.ipynb?t=1712207533 
+
+Expressions & Variables:
+[text]https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/jupyterlite/latest/lab/index.html?notebook_url=https://cf-courses-data.static.labs.skills.network/bVLEXIWjo5syKtT_pFOu-Q.jupyterlite.ipynb?t=1712133681
+
+String Operations:
+[text]https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/jupyterlite/latest/lab/index.html?notebook_url=https://cf-courses-data.static.labs.skills.network/IBMDeveloperSkillsNetwork-PY0101EN-SkillsNetwork/labs/jupyterlite/files/Module_1/PY0101EN-1-2-Strings-20230410-1681084800.jupyterlite.ipynb?t=1733730915
+
+Python Basics:
+[text](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-PY0101EN-SkillsNetwork/labs/
+Cheat_Sheet_Week-1.md.html)
+
+Definitions:
+[text]https://author-ide.skills.network/render?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZF9pbnN0cnVjdGlvbnNfdXJsIjoiaHR0cHM6Ly9jZi1jb3Vyc2VzLWRhdGEuczMudXMuY2xvdWQtb2JqZWN0LXN0b3JhZ2UuYXBwZG9tYWluLmNsb3VkL0lCTURldmVsb3BlclNraWxsc05ldHdvcmstUFkwMTAxRU4tU2tpbGxzTmV0d29yay9sYWJzLzIwMDMzNi4wMzJfTW9kdWxlXzFfR2xvc3NhcnkubWQ_dD0xNzQ3NDAwMTUxIiwidG9vbF90eXBlIjoiaW5zdHJ1Y3Rpb25hbC1sYWIiLCJhdGxhc19maWxlX2lkIjoxMDg3MSwiYWRtaW4iOmZhbHNlLCJpYXQiOjE3NTc0NDgzMjF9.Yb-THUuDIkQ0qn2K9DOO_r91Wuhqyw5J-q5QYxxlxlg
+
+Lists and Tuples:
+[text]https://author-ide.skills.network/render?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZF9pbnN0cnVjdGlvbnNfdXJsIjoiaHR0cHM6Ly9jZi1jb3Vyc2VzLWRhdGEuczMudXMuY2xvdWQtb2JqZWN0LXN0b3JhZ2UuYXBwZG9tYWluLmNsb3VkL0lCTURldmVsb3BlclNraWxsc05ldHdvcmstUFkwMTAxRU4tU2tpbGxzTmV0d29yay9sYWJzL2hhbmRvdXRzL0NoZWF0X1NoZWV0X1dlZWstMi5tZD90PTE3NTAzMTY5NDIiLCJ0b29sX3R5cGUiOiJpbnN0cnVjdGlvbmFsLWxhYiIsImF0bGFzX2ZpbGVfaWQiOjEwODI1LCJhZG1pbiI6ZmFsc2UsImlhdCI6MTc1NzQ0ODMwNX0.pZ4GmPcAY2wsZmQWF5y2cIYhvRZUL5gJ2JM47q3JjGY
+
+
+Data Structures:
+[text]https://author-ide.skills.network/render?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZF9pbnN0cnVjdGlvbnNfdXJsIjoiaHR0cHM6Ly9jZi1jb3Vyc2VzLWRhdGEuczMudXMuY2xvdWQtb2JqZWN0LXN0b3JhZ2UuYXBwZG9tYWluLmNsb3VkL0lCTURldmVsb3BlclNraWxsc05ldHdvcmstUFkwMTAxRU4tU2tpbGxzTmV0d29yay9sYWJzL2hhbmRvdXRzL0NoZWF0X1NoZWV0X1dlZWstMl9QYXJ0LTIubWQ_dD0xNzYyNzY1NzQ5IiwidG9vbF90eXBlIjoiaW5zdHJ1Y3Rpb25hbC1sYWIiLCJhdGxhc19maWxlX2lkIjoxMDgzNSwiYWRtaW4iOmZhbHNlLCJpYXQiOjE3NjI3NjU3NTB9.8s2kA8b450sjhK6KrgXCHLIzylu7Gr7YjxbQeyuHNfw
+
+Glossary:
+[text]https://author-ide.skills.network/render?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZF9pbnN0cnVjdGlvbnNfdXJsIjoiaHR0cHM6Ly9jZi1jb3Vyc2VzLWRhdGEuczMudXMuY2xvdWQtb2JqZWN0LXN0b3JhZ2UuYXBwZG9tYWluLmNsb3VkL0lCTURldmVsb3BlclNraWxsc05ldHdvcmstUFkwMTAxRU4tU2tpbGxzTmV0d29yay9sYWJzLzIwMDMzNi4wMTFfTW9kdWxlXzJfR2xvc3NhcnkubWQ_dD0xNzQ2MTE4ODA2IiwidG9vbF90eXBlIjoiaW5zdHJ1Y3Rpb25hbC1sYWIiLCJhdGxhc19maWxlX2lkIjoxMDg3MywiYWRtaW4iOmZhbHNlLCJpYXQiOjE3NTc0NDgzMjJ9.7fOiDcWnN_RJmmvAeKphJWt7IPl-vaXgDzFuYMPp4PA
+
+Conditions and Branching:
+[text]https://author-ide.skills.network/render?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZF9pbnN0cnVjdGlvbnNfdXJsIjoiaHR0cHM6Ly9jZi1jb3Vyc2VzLWRhdGEuczMudXMuY2xvdWQtb2JqZWN0LXN0b3JhZ2UuYXBwZG9tYWluLmNsb3VkL0lCTURldmVsb3BlclNraWxsc05ldHdvcmstUFkwMTAxRU4tU2tpbGxzTmV0d29yay9sYWJzL01vZHVsZV8zL0NvbmRpdGlvbmFsX2JyYW5jaGluZ19SZWFkaW5nLm1kP3Q9MTc0ODUwMTU4OCIsInRvb2xfdHlwZSI6Imluc3RydWN0aW9uYWwtbGFiIiwiYXRsYXNfZmlsZV9pZCI6MTA4NTMsImFkbWluIjpmYWxzZSwiaWF0IjoxNzU3NDQ4MzE1fQ.S6-Wtb6sQB8YBU_zglwQGqyE6UBq-HXv0jalhLzUVWM
+
+Loops:
+[text]https://author-ide.skills.network/render?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZF9pbnN0cnVjdGlvbnNfdXJsIjoiaHR0cHM6Ly9jZi1jb3Vyc2VzLWRhdGEuczMudXMuY2xvdWQtb2JqZWN0LXN0b3JhZ2UuYXBwZG9tYWluLmNsb3VkL0lCTURldmVsb3BlclNraWxsc05ldHdvcmstUFkwMTAxRU4tU2tpbGxzTmV0d29yay9sYWJzL2xhYi9Nb2R1bGVfMy9sb29wX3JlYWRpbmcubWQ_dD0xNzQ2MTE4ODIyIiwidG9vbF90eXBlIjoiaW5zdHJ1Y3Rpb25hbC1sYWIiLCJhdGxhc19maWxlX2lkIjoxMDgyNywiYWRtaW4iOmZhbHNlLCJpYXQiOjE3NTc0NDgzMDZ9.B3qqXP3nJlf0dj1ZXXGalwaNzFp-jiu1xjLhvKdr_VI
+
+Functions:
+[text]https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-PY0101EN-SkillsNetwork/labs/Module%203/Reading_Functions.pdf
+
+Exception Handling:
+[text]https://author-ide.skills.network/render?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZF9pbnN0cnVjdGlvbnNfdXJsIjoiaHR0cHM6Ly9jZi1jb3Vyc2VzLWRhdGEuczMudXMuY2xvdWQtb2JqZWN0LXN0b3JhZ2UuYXBwZG9tYWluLmNsb3VkL0lCTURldmVsb3BlclNraWxsc05ldHdvcmstUFkwMTAxRU4tU2tpbGxzTmV0d29yay9sYWJzL0V4Y2VwdGlvbl9oYW5kbGluZ19SZWFkaW5nLm1kP3Q9MTc0NjExODc1NiIsInRvb2xfdHlwZSI6Imluc3RydWN0aW9uYWwtbGFiIiwiYXRsYXNfZmlsZV9pZCI6MTA4MTcsImFkbWluIjpmYWxzZSwiaWF0IjoxNzU3NDQ4MzA0fQ.Bayq6CpYG5UOwdCl_38c8OCm9QI2RmEBu2R4shXIQ6o
+
+Objects & Classes
+[text]https://author-ide.skills.network/render?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZF9pbnN0cnVjdGlvbnNfdXJsIjoiaHR0cHM6Ly9jZi1jb3Vyc2VzLWRhdGEuczMudXMuY2xvdWQtb2JqZWN0LXN0b3JhZ2UuYXBwZG9tYWluLmNsb3VkL0lCTURldmVsb3BlclNraWxsc05ldHdvcmstUFkwMTAxRU4tU2tpbGxzTmV0d29yay9sYWJzL2NsYXNzZXNfYW5kX29iamVjdF9SZWFkaW5nLm1kP3Q9MTc0NjExODgxMCIsInRvb2xfdHlwZSI6Imluc3RydWN0aW9uYWwtbGFiIiwiYXRsYXNfZmlsZV9pZCI6MTA4MzksImFkbWluIjpmYWxzZSwiaWF0IjoxNzU3NDQ4MzEwfQ.HSMbV_vJYr1TH-RjHPBFaPxnEJcabeofFCssvdPEZHo
+
+
+[text]https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/jupyterlite/latest/lab/index.html?notebook_url=https://cf-courses-data.static.labs.skills.network/IBMDeveloperSkillsNetwork-PY0101EN-SkillsNetwork/labs/Module_3/PY0101EN-3-4-Classes-20230605-1685923200.jupyterlite.ipynb?t=1726126150
+
+
+
+Full Python Sheet:
+[text]https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-PY0101EN-SkillsNetwork/handouts/Python%20Cheat%20Sheet%20-%20The%20Basics%20edX.pdf
